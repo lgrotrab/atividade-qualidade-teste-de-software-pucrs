@@ -1,0 +1,20 @@
+{
+  "name": "atividade-qualidade-teste-de-software-pucrs",
+  "version": "1.0.0",
+  "description": "Atividade sobre testes dados pelo curso de pós graduação desenvolvimento full stack da PUCRS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.10",
+    "axios": "^1.6.2"
+  }
+}
